@@ -178,11 +178,21 @@ input[type="checkbox"] {
 }
 
 /* img collections */
+.all-images {
+  padding: 0 80px;
+}
 .image-collections-desktop .desktop {
   width: 250px;
 }
 .mobile {
   display: none;
+}
+
+.image-collections-desktop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
 }
 
 /* media queries */
