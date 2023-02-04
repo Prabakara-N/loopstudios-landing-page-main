@@ -11,6 +11,7 @@ const mobileImageEl = document.querySelectorAll(
 const seeAllBtn = document.getElementById("btn");
 
 // eventlistneres
+// navbar
 barIconEl.addEventListener("click", () => {
   navEl.classList.toggle("active");
 });
@@ -23,12 +24,14 @@ listEl.forEach((val) => {
   });
 });
 
+// images for desktop
 seeAllBtn.addEventListener("click", () => {
   desktopImageEl.forEach((img) => {
     img.classList.toggle("show");
   });
 });
 
+// images for mobile
 seeAllBtn.addEventListener("click", () => {
   mobileImageEl.forEach((img) => {
     img.classList.toggle("show");
