@@ -2,7 +2,12 @@
 const navEl = document.querySelector(".hero-container");
 const barIconEl = document.querySelector(".menu-btn i");
 const listEl = document.querySelectorAll("nav ul li");
-const imageEl = document.querySelectorAll(".image-collections-desktop div");
+const desktopImageEl = document.querySelectorAll(
+  ".image-collections-desktop div"
+);
+const mobileImageEl = document.querySelectorAll(
+  ".image-collections-mobile div"
+);
 const seeAllBtn = document.getElementById("btn");
 
 // eventlistneres
@@ -19,7 +24,13 @@ listEl.forEach((val) => {
 });
 
 seeAllBtn.addEventListener("click", () => {
-  imageEl.forEach((img) => {
+  desktopImageEl.forEach((img) => {
+    img.classList.toggle("show");
+  });
+});
+
+seeAllBtn.addEventListener("click", () => {
+  mobileImageEl.forEach((img) => {
     img.classList.toggle("show");
   });
 });
