@@ -573,6 +573,10 @@ footer {
     padding: 0 1.5rem;
   }
 
+  .mobile {
+    display: block;
+  }
+
   .main-img.mobile {
     display: block;
     max-width: 100%;
