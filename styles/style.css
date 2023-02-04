@@ -40,6 +40,11 @@ body {
   background-color: var(--clr-white);
 }
 
+h2 {
+  font-family: var(--font-family-josefin);
+  font-weight: 300;
+}
+
 header {
   background-image: url(../images/desktop/image-hero.jpg);
   background-size: cover;
@@ -168,6 +173,7 @@ input[type="checkbox"] {
 }
 
 .right-container p {
+  font-family: var(--font-family-alata);
   color: var(--clr-Dark-Gray);
   line-height: 30px;
 }
@@ -292,6 +298,12 @@ footer {
 .left-footer ul li {
   margin: 0 5px;
   font-family: var(--font-family-josefin);
+  transition: all 0.3s;
+}
+
+.left-footer ul li:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
 }
 
 .left-footer ul li a {
