@@ -406,6 +406,7 @@ footer {
     background-color: #111;
     width: 100%;
     transition: all 0.3s ease;
+    position: fixed;
   }
 
   nav ul {
@@ -534,6 +535,7 @@ footer {
 
   .image-collections-mobile p {
     font-size: 1.5rem;
+    margin-top: -5rem;
   }
 
   .image-collections-mobile div.show {
