@@ -414,10 +414,14 @@ footer {
     content: "\f00d";
   }
 
+  .hero-container {
+    transition: all 0.5s;
+  }
+
   .hero-container.active {
     background-color: #111;
     width: 100%;
-    transition: all 0.5s ease;
+    transition: all 0.5s;
     position: fixed;
   }
 
@@ -666,6 +670,11 @@ footer {
     gap: 1.5rem;
   }
 
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+
   .s-icon {
     width: 25px;
     height: 25px;
@@ -688,7 +697,7 @@ footer {
 
   .hero-container p {
     font-size: 2rem;
-    margin-left: 1.75rem;
+    margin-left: 1.6rem;
   }
 
   .image-collections-desktop {
